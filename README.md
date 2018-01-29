@@ -94,7 +94,7 @@ Pour en savoir plus (et parce que vous aimez les vidéos), je vous conseille de 
 
 ## <a name="BDD">7.Les relations entre les models des BDD.</a> ##
 
-[Wikipedia](https://fr.wikipedia.org/wiki/Mod%C3%A8le_relationnel) définit le modèle relationnel comme "une manière de modéliser les relations existantes entre plusieurs informations, et de les ordonner entre elles. Cette modélisation qui repose sur des principes mathématiques mis en avant par E.F. Codd est souvent retranscrite physiquement (« implémentée ») dans une base de données."
+[Wikipedia](https://fr.wikipedia.org/wiki/Mod%C3%A8le_relationnel) définit le modèle relationnel comme "une manière de modéliser les relations existantes entre plusieurs informations, et de les ordonner entre elles. Cette modélisation qui repose sur des principes mathématiques est souvent retranscrite physiquement (« implémentée ») dans une base de données."
 
 Pour une bonne introduction aux bases de données relationnelles, la vidéo suivante est assez bien:
 
@@ -103,7 +103,7 @@ Pour une bonne introduction aux bases de données relationnelles, la vidéo suiv
 
 ## <a name="CRUD">8.Les fonctions du CRUD.</a> ##
 
-![alt text](https://www.google.fr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi9rfmY_f3YAhVElxQKHSwTCDQQjRwIBw&url=http%3A%2F%2Fcoursework.vschool.io%2Fmongoose-crud%2F&psig=AOvVaw2lzqurk6PoC86kSVaHYA9j&ust=1517342971241986 "crud")
+![alt text](https://static1.squarespace.com/static/555dc243e4b0fa866e3e41a9/t/5926bcdf9de4bbba0f69cd10/1495710948784/ "crud")
 
   * Create, permet de créer un nouvel enregistrement (PUT ou POST en HTTP).
   * Read, permet d'afficher un ou plusieurs enregistrements (GET en HTTP.
