@@ -36,17 +36,17 @@ Le MVC est l'architecture sur laquelle se base Rails et peut être schématiquem
 
 En détaillants les actions on a:
 
-  * L'utilisateur envoie, par le biais du Browser (navigateur), une requette à notre application.
+  * L'utilisateur envoie, par le biais du _Browser_ (navigateur), une requête à notre application.
 
-  * Cette requette arrive dans le routeur et est distribué au bon Controleur. 
+  * Cette requête arrive dans le routeur et est distribué au bon _Controlleur_. 
 
-  * Le Controleur réagit aux actions de l'utilisateur, va aller chercher les données dans la base et va les mettre à disposition de la Vue.
+  * Le _Controlleur_ réagit aux actions de l'utilisateur, va aller chercher les données dans la base de données et va les mettre à disposition de la _View_.
 
-  * Le controleur va interagir aussi avec les Models pour récupérer les informations dont il a besoin. Les Models assurent la gestion des données.
+  * Le _Controlleur_ va interagir aussi avec les _Models_ pour récupérer les informations dont il a besoin. Les _Models_ assurent la gestion des données.
 
-  * Le controleur envoie sa requette à la Vue et celle-ci génère une HTML complet.
+  * Le _Controlleur_ envoie sa requête à la _View_ et celle-ci génère une HTML complete.
 
-  * Cet HTML est retourné au controleur qui le retourne à son tour au Browser de l'utilisateur.  
+  * Cet HTML est retourné au _Controlleur_ qui le retourne à son tour au _Browser_ de l'utilisateur.  
  
 
 ## <a name="Routes">3.Les Routes.</a> ##
