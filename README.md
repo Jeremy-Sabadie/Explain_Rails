@@ -2,7 +2,7 @@
 
 # Concepts de base à connaitre en Ruby on Rails (RoR) #
 
-![alt text](https://www.google.fr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwj38sjg9P3YAhVEzRQKHR4qBwYQjRwIBw&url=https%3A%2F%2Fwebsitehostreview.com%2Ffaq%2Fwhat-is-ruby-on-rails%2F&psig=AOvVaw3zJE2KW9qRLTlE7_unc9p2&ust=1517340703045555"RoR")
+![alt text](https://www.bacancytechnology.com/blog/wp-content/uploads/2014/08/rubyonrailswebapplicatondevelopment.png "Architecture Rails")
 
 ## Sommaire: ##
 [1-La différence entre un site statique et un site dynamique.](#SD) 
@@ -23,14 +23,16 @@
 
 
 ## <a name="SD">1.La différence entre un site statique et un site dynamique:</a> ##
-..* Un site Web __statique__ est un site ou chacune des pages est créée en HTML. Un ordinateur qui se connecte au serveur, demande une page. Celle ci lui est directement servie (elle est stockée toute prête sur le serveur).
-..* Par opposition, un site Web __dynamique__ est un site Web dont les pages sont générées dynamiquement à la demande.
-Le contenu est obtenu (par exemple) en combinant l’utilisation d’un langage de scripts ou de programmation et une base de données.
+
+ * Un site Web __statique__ est un site ou chacune des pages est créée en HTML. Un ordinateur qui se connecte au serveur, demande une page. Celle ci lui est directement servie (elle est stockée toute prête sur le serveur).
+ 
+ * Par opposition, un site Web __dynamique__ est un site Web dont les pages sont générées dynamiquement à la demande.
+ Le contenu est obtenu (par exemple) en combinant l’utilisation d’un langage de scripts ou de programmation et une base de données.
 
 
 ## <a name="MVC">2.MVC: Model Vue Controller.</a> ##
-Le MVC est l'architecture sur laquelle se base Rails.
-![alt text](https://image.slidesharecdn.com/rubyror-140609115622-phpapp01/95/ruby-on-rails-penetration-testing-5-638.jpg?cb=1402316148 "Architecture Rails")
+Le MVC est l'architecture sur laquelle se base Rails et peut être schématiquement représenté comme ceci:
+![alt text](https://image.slidesharecdn.com/rubyror-140609115622-phpapp01/95/ruby-on-rails-penetration-testing-5-638.jpg?cb=1402316148 "Ruby on Rails")
 
 En détaillants les actions on a:
 
@@ -101,7 +103,7 @@ Pour une bonne introduction aux bases de données relationnelles, la vidéo suiv
 
 ## <a name="CRUD">8.Les fonctions du CRUD.</a> ##
 
-![alt text](http://coursework.vschool.io/content/images/2017/06/CRUD.jpg"CRUD")
+![alt text](https://www.google.fr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi9rfmY_f3YAhVElxQKHSwTCDQQjRwIBw&url=http%3A%2F%2Fcoursework.vschool.io%2Fmongoose-crud%2F&psig=AOvVaw2lzqurk6PoC86kSVaHYA9j&ust=1517342971241986 "crud")
 
   * Create, permet de créer un nouvel enregistrement (PUT ou POST en HTTP).
   * Read, permet d'afficher un ou plusieurs enregistrements (GET en HTTP.
@@ -109,4 +111,8 @@ Pour une bonne introduction aux bases de données relationnelles, la vidéo suiv
   * Update, permet de mettre à jour un enregistrement (DELETE en HTTP).
 
 Pour approfondir vos connaissances un tour sur la page wikipedia de [Ruby on Rails](https://fr.wikipedia.org/wiki/Ruby_on_Rails) répondra certainement à certaines de vos questions.
+
+Merci pour votre lecture.
+
+_Make by J.S._
 
