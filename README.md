@@ -1,26 +1,30 @@
-# Explications des concepts de Ruby on Rails (RoR) #
+# Bonjour et bienvenue sur ce Read me. #
+
+# Concepts de base à connaitre en Ruby on Rails (RoR) #
+
+![alt text](https://www.google.fr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwj38sjg9P3YAhVEzRQKHR4qBwYQjRwIBw&url=https%3A%2F%2Fwebsitehostreview.com%2Ffaq%2Fwhat-is-ruby-on-rails%2F&psig=AOvVaw3zJE2KW9qRLTlE7_unc9p2&ust=1517340703045555"RoR")
 
 ## Sommaire: ##
-[1-La différence entre un site statique et un site dynamique:](#SD) X
+[1-La différence entre un site statique et un site dynamique.](#SD) 
 
-[2-MVC: Model Vue Controller:](#MVC) X
+[2-MVC: Model Vue Controller.](#MVC) 
 
-[3-Les Routes:](#Routes) X
+[3-Les Routes.](#Routes) 
 
-[4-Les Bases de Données:](#DB)
+[4-Les Bases de Données.](#DB) 
 
-[5-GET/ POST:](#GP) X
+[5-GET/ POST.](#GP) 
 
-[6-Le concept de migration:](#Mig) X
+[6-Le concept de migration.](#Mig) 
 
-[7-Les relations entre les models des BDD:](#BDD)
+[7-Les relations entre les models des BDD.](#BDD)
 
-[8-Les fonctions du CRUD:](#CRUD) X
+[8-Les fonctions du CRUD.](#CRUD) 
 
 
-## <a name="SD">1.La différence entre un site statique et un site dynamique.</a> ##
-..* Un site Web statique est un site ou chacune des pages est créée en HTML. Un ordinateur qui se connecte au serveur, demande une page. Celle ci lui est directement servie (elle est stockée toute prête sur le serveur).
-..* Par opposition, un site Web dynamique est un site Web dont les pages sont générées dynamiquement à la demande.
+## <a name="SD">1.La différence entre un site statique et un site dynamique:</a> ##
+..* Un site Web __statique__ est un site ou chacune des pages est créée en HTML. Un ordinateur qui se connecte au serveur, demande une page. Celle ci lui est directement servie (elle est stockée toute prête sur le serveur).
+..* Par opposition, un site Web __dynamique__ est un site Web dont les pages sont générées dynamiquement à la demande.
 Le contenu est obtenu (par exemple) en combinant l’utilisation d’un langage de scripts ou de programmation et une base de données.
 
 
@@ -47,13 +51,18 @@ En détaillants les actions on a:
 
 Les routes interprètent les requettes URL et orientent vers les bonnes actions controlleurs.
 
+Dans un projet Rails, on trouvera le fichier routes.rb dans le répertoire config.
+
 
 ## <a name="DB">4.Les Bases de Données.</a> ##
 
-  *Ou BDD en abrégé, ou encore DB (anglais pour database).
-  *C'est une sorte de tableur Excel géant.
-  *Fichier ou ensemble de fichiers où l'on stocke des informations/données pour y accéder plus facilement et rapidement.
-  *Le principe est d'avoir des clés/identifiants pour identifier le contenu et le lier à d'autres contenus de la BDD.
+  * Ou BDD en abrégé, ou encore DB (anglais pour database).
+  
+  * C'est une sorte de tableur Excel géant.
+  
+  * Fichier ou ensemble de fichiers où l'on stocke des informations/données pour y accéder plus facilement et rapidement.
+  
+  * Le principe est d'avoir des clés/identifiants pour identifier le contenu et le lier à d'autres contenus de la BDD.
 
  Comme je le disais, schématiquement une BDD se présente comme un tableau :
 
@@ -61,15 +70,18 @@ Les routes interprètent les requettes URL et orientent vers les bonnes actions 
   |------|-----------|------|
   |123456|"La valeur"|String|
 
+  Voici une liste non exhaustive : SQLite, MySQL, PostgreSQL, Oracle, DB2, ...
+
 ## <a name="GP">5.GET/ POST</a> ##
 
- *GET = On demande de recevoir une info au serveur. Le GET se retrouvera directement comme argument dans l'URL.
+ * __GET__ :On demande de recevoir une info au serveur. Le GET se retrouvera directement comme argument dans l'URL.
     
-  *POST = On envoie une info au serveur pour qu'il l'enregistre. Le POST sera défini dans le body de la page HTML.
+  * __POST__ : On envoie une info au serveur pour qu'il l'enregistre. Le POST sera défini dans le body de la page HTML.
 
 
 ## <a name="Mig">6.Le concept de migration.</a> ##
-Tout simplement, la migration intervient lorsqu'on modifie la structure de la BDD.
+
+Les __migrations__ sont un moyen pratique de modifier votre base de données d'une manière structurée et organisée.
 
 Pour se faire, la commande utilisée dans Rails sera db:migrate. Auparavant, j'aurais modifié le fichier schema.rb dans le répertoire db et bien sûr sauvegardé ces modifications.
 
@@ -80,12 +92,21 @@ Pour en savoir plus (et parce que vous aimez les vidéos), je vous conseille de 
 
 ## <a name="BDD">7.Les relations entre les models des BDD.</a> ##
 
+[Wikipedia](https://fr.wikipedia.org/wiki/Mod%C3%A8le_relationnel) définit le modèle relationnel comme "une manière de modéliser les relations existantes entre plusieurs informations, et de les ordonner entre elles. Cette modélisation qui repose sur des principes mathématiques mis en avant par E.F. Codd est souvent retranscrite physiquement (« implémentée ») dans une base de données."
+
+Pour une bonne introduction aux bases de données relationnelles, la vidéo suivante est assez bien:
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/4etRfqKF1XE/0.jpg)](http://www.youtube.com/watch?v=4etRfqKF1XE)
+
 
 ## <a name="CRUD">8.Les fonctions du CRUD.</a> ##
 
-  * Create, permet de créer un nouvel enregistrement.
-  * Read, permet d'afficher un ou plusieurs enregistrements.
-  * Update, permet de mettre à jour un enregistrement.
-  * Update, permet de mettre à jour un enregistrement.
+![alt text](http://coursework.vschool.io/content/images/2017/06/CRUD.jpg"CRUD")
+
+  * Create, permet de créer un nouvel enregistrement (PUT ou POST en HTTP).
+  * Read, permet d'afficher un ou plusieurs enregistrements (GET en HTTP.
+  * Update, permet de mettre à jour un enregistrement (PUT, POST ou PATH en HTTP).
+  * Update, permet de mettre à jour un enregistrement (DELETE en HTTP).
 
 Pour approfondir vos connaissances un tour sur la page wikipedia de [Ruby on Rails](https://fr.wikipedia.org/wiki/Ruby_on_Rails) répondra certainement à certaines de vos questions.
+
