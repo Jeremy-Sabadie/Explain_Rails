@@ -2,13 +2,20 @@
 
 ## Sommaire: ##
 [1-La différence entre un site statique et un site dynamique:](#SD) X
+
 [2-MVC: Model Vue Controller:](#MVC) X
+
 [3-Les Routes:](#Routes) X
+
 [4-Les Bases de Données:](#DB)
+
 [5-GET/ POST:](#GP) X
+
 [6-Le concept de migration:](#Mig) X
+
 [7-Les relations entre les models des BDD:](#BDD)
-8.[8-Les fonctions du CRUD:](#CRUD) X
+
+[8-Les fonctions du CRUD:](#CRUD) X
 
 
 ## <a name="SD">1.La différence entre un site statique et un site dynamique.</a> ##
@@ -81,4 +88,4 @@ Pour en savoir plus (et parce que vous aimez les vidéos), je vous conseille de 
   * Update, permet de mettre à jour un enregistrement.
   * Update, permet de mettre à jour un enregistrement.
 
-Pour approfondir vos connaissances un tour sur la page wikipedia de [Ruby on Rails](https://fr.wikipedia.org/wiki/Ruby_on_Rails) répondra certainement à certaines de vos questions
+Pour approfondir vos connaissances un tour sur la page wikipedia de [Ruby on Rails](https://fr.wikipedia.org/wiki/Ruby_on_Rails) répondra certainement à certaines de vos questions.
